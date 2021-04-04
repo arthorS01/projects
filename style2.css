@@ -1,0 +1,54 @@
+body{
+    background-color:lightgrey;
+}
+h2{
+    font-family: calibri;
+}
+section{
+    display:inline-block;
+    text-align: center;
+    margin-top:10%;
+    background-color:white;
+    margin-left:35%;
+    width:500px;
+    height:300px;
+    border-radius:5px;
+    border-style:none;
+    border-bottom:4px solid lightblue;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size:120%;
+    font-family:calibri;
+    padding:5px 10px;
+    border-radius:5px;
+    background-color:lightblue;
+    
+}
+input[type="file"]{
+    width:70%;
+    border-style:none;
+    padding:5px 10px;
+    margin:30px 10px;
+    box-shadow: 0px 0px 2px 2px lightgrey;
+}
+input[type="submit"]{
+    padding:5px 10px;
+    margin:5px 10px;
+    font-size:120%;
+    padding:5px 10px;
+    border-style:none;
+    border-radius:5px;
+    background-color:lightblue; 
+}
+input[type="submit"]:hover{
+    background-color:orange;
+    color:white;
+    cursor:pointer;
+}
+
+#success{
+    background-color:greenyellow;
+    color:green;
+}

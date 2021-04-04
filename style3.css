@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    font-family:calibri;
+}
+#header{
+    padding:5px;
+    position:fixed;
+    top:0px;
+    height:90px;
+    width:100%;
+    background-color:white;
+    box-shadow:0px -1px 5px 3px lightgrey;
+}
+#header h1{
+    margin-bottom:5px;
+    font-size:200%;
+    color:#217c99;
+    font-family:monospace;
+}
+#nav ul{
+    margin:0px;
+}
+#nav ul li{
+    display:inline-block;
+    padding:8px 10px;
+    padding-top:4px;
+    border-right:2px solid #d2d2d2;
+    
+}
+#nav ul li:last-child{
+    border-right-style:none;
+}
+#active{
+    color:#217c99;
+     border-bottom:4px solid #217c99;
+}
+
+
+.file{
+    display:inline-block;
+    position:relative;
+    margin: 20px 58px;
+    height:90px;
+    width:40%;
+    border-bottom-right-radius: 10px;
+    background-color:#ececec;
+    border-left:4px solid lightblue;
+    box-shadow: 0px 0px 3px 3px lightgrey; 
+}
+.file:first-child{
+    margin-top:150px;
+}
+a{
+    padding:12px 5px;
+    text-decoration: none;
+    font-family:Arial;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:black;
+}
+.status{
+    position:absolute;
+    text-align: center;
+    font-family: calibri;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:white;
+    padding:3px;
+    right:0px;
+    width:80px;
+    background-color:#ff6932;
+    height:20px;
+}
+.file_type{
+    display:inline-block;
+    background-image: url(../images/File-128.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:50px;
+    width:50px;
+    margin:10px;
+    margin-top:10px;
+    margin-bottom:0px;  
+}
+form{
+    display:inline-block;
+}
+.file_name{
+    position:absolute;
+    font-family:calibri;
+    width:50%;
+    height:30px;
+    top:25%;
+    left:13%;
+    margin:0px;
+    background-color: #ffffff;
+    }
+.buttons{
+    margin-left:20px;
+    padding:
+}
+a:hover{
+    color:#27c9c9;
+    border-bottom-color: aqua;
+    transition:1.5s color border-color;
+    
+}
+input[type="submit"],button{
+    border-style:none;
+    padding:5px 10px;
+    font-family:calibri;
+    border-radius:5px;
+    font-size:100%;
+}
+input[type="submit"]:hover{
+    background-color:orange;
+    color:white;
+    cursor:pointer;
+}
+button:hover{
+    background-color:orange;
+    color:white;
+    cursor:pointer;
+}
+
+.txt{
+    background-image:url(../images/txt.webp);
+    background-size:contain;
+    background-repeat:no-repeat;        
+}
+.ppt{
+    background-image:url(../images/ppt.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.pdf{
+    background-image:url(../images/pdf.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.mp4{
+    background-image:url(../images/mp4.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.mp3{
+    background-image:url(../images/mp3.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.xlsx{
+    background-image:url(../images/xlsx.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.jpg{
+    background-image:url(../images/jpg.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.flv{
+    background-image:url(../images/flv.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.zip{
+    background-image:url(../images/zip.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.dat{
+    background-image:url(../images/dat.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.gif{
+    background-image:url(../images/gif.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.doc,.docx{
+    background-image:url(../images/doc.webp);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+#empty_message{
+    font-size:120%;
+    margin-top:300px;
+    text-align:center;
+    color:lightgray;
+}
